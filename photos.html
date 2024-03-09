@@ -2,46 +2,79 @@
 
 <html lang="en">
 
-    <!--The nav section dictates the navigation (typically at the top of a page)-->
-    <nav>
+  <!--The nav section dictates the navigation (typically at the top of a page)-->
+  <nav>
 
-        <!--The following links the navigation names to the webpage files.-->
-        <b><a style="word-spacing: 20px;" href="index.html">Home</a></b>
-        <b><a style="word-spacing: 20px;" href="photos.html">Photos</a></b>
-        <b><a style="word-spacing: 20px;" href="reviews.html">Reviews</a></b>
-        <b><a href="wheretobuy.html">Where to Buy</a></b>
+      <!--The following links the navigation names to the webpage files.-->
+      <b><a style="word-spacing: 20px;" href="index.html">Home</a></b>
+      <b><a style="word-spacing: 20px;" href="photos.html">Photos</a></b>
+      <b><a style="word-spacing: 20px;" href="reviews.html">Reviews</a></b>
+      <b><a href="wheretobuy.html">Where to Buy</a></b>
 
-    </nav>
+  </nav>
 
-    <head>
+  <head>
 
-        <!--The below line links this html file to the relevant css file. line must be in all html files-->
-        <link rel="stylesheet" href="Hades.css">
+    <style>
+      *{box-sizing: border-box;}
+      .img-container{float:left; width:33.33%; padding: 5px;}
+      .clearfix::after{content:""; clear:both; display: table;}
+    </style>
 
-        <!--The following line establishes the page title as a link for the home page. Should be in every html file-->
-        <h1><a href="index.html" Hades The Video Game UNOFFICIAL></a></h1>
+    <!--The below line links this html file to the relevant css file. line must be in all html files-->
+    <link rel="stylesheet" href="Hades.css">
 
-        <!--This is the name that pops up in the little tab NOT ON THE ACTUAL SITE-->
-        <title>
-            Hades The Video Game UNOFFICIAL
-        </title>
+    <!--The following line establishes the page title as a link for the home page. Should be in every html file-->
+    <h1><a href="index.html" Hades The Video Game UNOFFICIAL></a></h1>
 
-    </head>
+    <!--This is the name that pops up in the little tab NOT ON THE ACTUAL SITE-->
+    <title>
+        Hades The Video Game UNOFFICIAL
+    </title>
 
-    <main>
+  </head>
 
-        <h2 style="text-align:center;">Gameplay</h2>
+  <main>
 
-        <div class="row">
-            <div class="column">
-              <img src="HadesGameplay1.jfif" alt="Game1">
-            </div>
-            <div class="column">
-              <img src="HadesGameplay2.jfif" alt="Game2">
-            </div>
-            <div class="column">
-              <img src="HadesGameplay3.jfif" alt="Game3">
-            </div>
-          </div>
+    <!--<div class="row">
+      <div class="column">
+        <img src="HadesGameplay1.jfif" alt="Game1">
+      </div>
+      <div class="column">
+        <img src="HadesGameplay2.jfif" alt="Game2">
+      </div>
+      <div class="column">
+        <img src="HadesGameplay3.jfif" alt="Game3">
+      </div>
+      </div> 
+    -->
 
-    </main>
+    <body>
+
+      <h2 style="text-align:center;">Gameplay</h2>
+
+      <div class="clearfix">
+
+        <div class="imagecontainer">
+
+          <img src="HadesGameplay1.jfif" alt="Gameplay1" style="width:150%">
+
+        </div>
+
+        <div class="imagecontainer">
+
+          <img src="HadesGameplay2.jfif" alt="Gameplay2" style="width:150%">
+
+        </div>
+
+        <div class="imagecontainer">
+
+          <img src="HadesGameplay3.jfif" alt="Gameplay3" style="width:150%">
+
+        </div>
+
+      </div>
+
+    </body>
+
+  </main>
